@@ -12,6 +12,10 @@ function optionPick(maximum, minimum){
 	return option;
 }
 
+function newDate(){
+
+	
+}
 let counts = setInterval(function(){
 	// Set the date we're counting down to
 let countDate = moment("Aug 28, 2022");
