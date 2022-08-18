@@ -1,20 +1,3 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-p {
-  text-align: center;
-  font-size: 60px;
-  margin-top: 0px;
-}
-</style>
-</head>
-<body>
-
-<p id="demo"></p>
-
-<script>
 // Set the date we're counting down to
 var countDownDate = new Date("Aug 28, 2022 00:01:25").getTime();
 
@@ -43,7 +26,3 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
-</script>
-
-</body>
-</html>
