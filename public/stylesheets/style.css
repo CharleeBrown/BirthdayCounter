@@ -1,5 +1,5 @@
 body {
-
+background-color:#2660A4 !important;
 }
 
 a {
@@ -9,7 +9,7 @@ a {
 .col-md-4{
   margin: 0 auto;
   border:1px solid white;
-  background-color: lightskyblue;
+  background-color: #87cefa;
   font-family: 'Open Sans';
   text-align: center;
   font-size:1.5em;
