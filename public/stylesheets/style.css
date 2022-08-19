@@ -8,12 +8,19 @@ a {
 .row{
   margin-top: 30px !important;
 }
-.col-md-4{
+#bdayTitle{
+  margin: 0 auto;
+  font-size:3.5em;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  color:#87cefa;
+}
+#demo{
   
   margin: 0 auto;
   border:1px solid white;
   background-color: #87cefa;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', courier;
   text-align: center;
 
   font-size:1.5em;
