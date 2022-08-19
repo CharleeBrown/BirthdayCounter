@@ -5,9 +5,11 @@ background-color:#2660A4 !important;
 a {
   color: #00B7FF;
 }
-
+#row{
+  margin-top:30px;
+}
 .col-md-4{
-  padding-top:40px;
+  
   margin: 0 auto;
   border:1px solid white;
   background-color: #87cefa;
