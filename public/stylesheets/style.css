@@ -7,6 +7,7 @@ a {
 }
 
 .col-md-4{
+  padding-top:40px;
   margin: 0 auto;
   border:1px solid white;
   background-color: #87cefa;
