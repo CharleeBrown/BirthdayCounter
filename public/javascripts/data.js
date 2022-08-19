@@ -1,4 +1,5 @@
-
+let newTitle = document.getElementById("bdayTitle");
+newTitle.innerHTML = "Days until your BIRTHDAY!";
 let nowDate = new Date()
 // const changeDate = moment(nowDate)
 //   .add(14, 'd')
