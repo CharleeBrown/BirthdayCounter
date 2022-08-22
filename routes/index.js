@@ -22,7 +22,7 @@ function connectToDb(name, message){
 router.get('/', function(req, res, next) {
   
   res.render('index', { title: 'Xi-Day Counter' });
-  connectToDb();
+  // connectToDb();
 });
 
 router.post('/', function(req, res, next) {

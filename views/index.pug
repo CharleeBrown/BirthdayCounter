@@ -7,10 +7,33 @@ block content
     div(class="row")
       div( class="col-md-4" id="demo")
     div(class="row")
-      div(class="col" id="messageHeader")
-      //- The header will read "Leave a bday message!"
-    div(class="row")
-      div(class="col" id="messageHold") 
+      //- div(class="col-lg-12" id="messageHeader")
+      form#commentform(action='post_comment.php' method='post')
+        h3|Leave a Comment
+        br
+        label.required(for='comment_author')|Your name
+            input#comment_author(type='text' name='comment_author' value='' tabindex='1' required='required')
+        br
+        label.required(for='comment')|Your message
+          textarea(id="comments" name='comment' rows='1' cols='5' tabindex='4' required='required')
+        button(name='submit' type='submit' value='Submit comment')|Submit Comment
+    div(class="row" id="messageHold")
+      //- div
+      //-   p|Test - "Name"
+      //- div
+      //-   p|Test - "Name"
+      //- div
+      //-   p|Test - "Name"
+      //- div
+      //-   p|Test - "Name"
+      //- div
+      //-   p|Test - "Name"
+      //- div
+      //-   p|Test - "Name"      
+      
+      
+      
+      
       //- the messages will go here.
   script(src='./javascripts/data.js')
   style(@import url='https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap')
