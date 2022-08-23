@@ -3,13 +3,13 @@ extends layout
 block content
   div(class="container")
     div(class="row")
-      div(class="col-md-12" id="bdayTitle")
+      div(class="col-md-12" id="bdayTitlde")
     div(class="row")
-      div( class="col-md-4" id="demo")
-    div(class="row")
+      div( class="col-md-4" id="demdo")
+    div(style='display:inline;')
       //- div(class="col-lg-12" id="messageHeader")
       form#commentform(action='post_comment.php' method='post')
-        h3|Leave a Comment
+        h3|
         br
         label.required(for='comment_author')|Your name
             input#comment_author(type='text' name='comment_author' value='' tabindex='1' required='required')
@@ -20,6 +20,5 @@ block content
     div(class="row" id="messageHold")
       //- the messages will go here.
   script(src='./javascripts/data.js')
-  style(@import url='https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap')+
+  style(@import url='https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap')
 
-  
